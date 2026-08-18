@@ -1,0 +1,271 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "UnConfuserEx/1.0.0": {
+        "dependencies": {
+          "AutomaticGraphLayout.GraphViewerGDI": "1.1.12",
+          "LZMA-SDK": "22.1.1",
+          "MSILEmulator": "1.0.0",
+          "System.Resources.Extensions": "9.0.0",
+          "X86Emulator": "1.0.0",
+          "dnlib": "4.4.0",
+          "log4net": "3.3.2"
+        },
+        "runtime": {
+          "UnConfuserEx.dll": {}
+        }
+      },
+      "AutomaticGraphLayout/1.1.12": {
+        "runtime": {
+          "lib/netstandard2.0/AutomaticGraphLayout.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "AutomaticGraphLayout.Drawing/1.1.12": {
+        "dependencies": {
+          "AutomaticGraphLayout": "1.1.12"
+        },
+        "runtime": {
+          "lib/netstandard2.0/AutomaticGraphLayout.Drawing.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "AutomaticGraphLayout.GraphViewerGDI/1.1.12": {
+        "dependencies": {
+          "AutomaticGraphLayout.Drawing": "1.1.12"
+        },
+        "runtime": {
+          "lib/net61/Microsoft.Msagl.GraphViewerGdi.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "dnlib/4.4.0": {
+        "runtime": {
+          "lib/net6.0/dnlib.dll": {
+            "assemblyVersion": "4.4.0.0",
+            "fileVersion": "4.4.0.0"
+          }
+        }
+      },
+      "log4net/3.3.2": {
+        "dependencies": {
+          "System.Configuration.ConfigurationManager": "4.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/log4net.dll": {
+            "assemblyVersion": "3.3.2.0",
+            "fileVersion": "3.3.2.0"
+          }
+        }
+      },
+      "LZMA-SDK/22.1.1": {
+        "runtime": {
+          "lib/netstandard2.0/SevenZip.dll": {
+            "assemblyVersion": "22.1.1.0",
+            "fileVersion": "22.1.1.0"
+          }
+        }
+      },
+      "SharpDisasm/1.1.11": {
+        "runtime": {
+          "lib/netstandard2.0/SharpDisasm.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "System.Configuration.ConfigurationManager/4.5.0": {
+        "dependencies": {
+          "System.Security.Cryptography.ProtectedData": "4.5.0",
+          "System.Security.Permissions": "4.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Configuration.ConfigurationManager.dll": {
+            "assemblyVersion": "4.0.1.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        }
+      },
+      "System.Formats.Nrbf/9.0.0": {
+        "runtime": {
+          "lib/net9.0/System.Formats.Nrbf.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.24.52809"
+          }
+        }
+      },
+      "System.Resources.Extensions/9.0.0": {
+        "dependencies": {
+          "System.Formats.Nrbf": "9.0.0"
+        },
+        "runtime": {
+          "lib/net9.0/System.Resources.Extensions.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.24.52809"
+          }
+        }
+      },
+      "System.Security.Cryptography.ProtectedData/4.5.0": {
+        "runtime": {
+          "lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll": {
+            "assemblyVersion": "4.0.3.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.3.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        }
+      },
+      "System.Security.Permissions/4.5.0": {
+        "runtime": {
+          "lib/netstandard2.0/System.Security.Permissions.dll": {
+            "assemblyVersion": "4.0.1.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        }
+      },
+      "MSILEmulator/1.0.0": {
+        "dependencies": {
+          "dnlib": "4.4.0",
+          "log4net": "3.3.2"
+        },
+        "runtime": {
+          "MSILEmulator.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "X86Emulator/1.0.0": {
+        "dependencies": {
+          "SharpDisasm": "1.1.11",
+          "dnlib": "4.4.0",
+          "log4net": "3.3.2"
+        },
+        "runtime": {
+          "X86Emulator.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "UnConfuserEx/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AutomaticGraphLayout/1.1.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Txc1uVLwnKemnPWmGSAVSZaBR95VTxU7/LfarvSOuJC6KuwPW4xrLpIGTOUbCXYZiSnkxN2jiC3FwX/2051+9g==",
+      "path": "automaticgraphlayout/1.1.12",
+      "hashPath": "automaticgraphlayout.1.1.12.nupkg.sha512"
+    },
+    "AutomaticGraphLayout.Drawing/1.1.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LYDrw069a2TGFJkALLyKLXISdMlWNiPiyXetVbzRlEpxhmBUt7BmbIy5pBSvaVdSXD9xkNe4yj/M3cT4mwH65w==",
+      "path": "automaticgraphlayout.drawing/1.1.12",
+      "hashPath": "automaticgraphlayout.drawing.1.1.12.nupkg.sha512"
+    },
+    "AutomaticGraphLayout.GraphViewerGDI/1.1.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HqK/oDFK2eQmbhIqqwSXOpODqLKfev1+P0Dj1LdNr60vWhwWUMvIrsTeI9LO92YoplmhlQjz8UA7375ChHFHGA==",
+      "path": "automaticgraphlayout.graphviewergdi/1.1.12",
+      "hashPath": "automaticgraphlayout.graphviewergdi.1.1.12.nupkg.sha512"
+    },
+    "dnlib/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cKHI720q+zfEEvzklWVGt6B0TH3AibAyJbpUJl4U6KvTP13tycfnqJpkGHRZ/oQ45BTIoIxIwltHIJVDN+iCqQ==",
+      "path": "dnlib/4.4.0",
+      "hashPath": "dnlib.4.4.0.nupkg.sha512"
+    },
+    "log4net/3.3.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fwRZAWPkK1zAlxAvn8lhfuHzQV+++F6ReJbimt9QIPwI4s2FSRjCZLgq5e12PTD5ynkPf/zGki6QbJ9LWQTeNg==",
+      "path": "log4net/3.3.2",
+      "hashPath": "log4net.3.3.2.nupkg.sha512"
+    },
+    "LZMA-SDK/22.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lxG8/H53OCqebnDFlTStwzbgtmUN/DqnXN8kffa/ctHcSEHhIPDyEa3jLzpZxVX5F8bmJgvb1mna6gnhetykIw==",
+      "path": "lzma-sdk/22.1.1",
+      "hashPath": "lzma-sdk.22.1.1.nupkg.sha512"
+    },
+    "SharpDisasm/1.1.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3y+5A2RZHlHHj3d8SssTKvAr3624xXu3RoWjqkCQ6TE8frYbyj8kxJxjqXh6noLX2mHRbAoPpd1O0Duzv2u+qA==",
+      "path": "sharpdisasm/1.1.11",
+      "hashPath": "sharpdisasm.1.1.11.nupkg.sha512"
+    },
+    "System.Configuration.ConfigurationManager/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UIFvaFfuKhLr9u5tWMxmVoDPkFeD+Qv8gUuap4aZgVGYSYMdERck4OhLN/2gulAc0nYTEigWXSJNNWshrmxnng==",
+      "path": "system.configuration.configurationmanager/4.5.0",
+      "hashPath": "system.configuration.configurationmanager.4.5.0.nupkg.sha512"
+    },
+    "System.Formats.Nrbf/9.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-F/6tNE+ckmdFeSQAyQo26bQOqfPFKEfZcuqnp4kBE6/7jP26diP+QTHCJJ6vpEfaY6bLy+hBLiIQUSxSmNwLkA==",
+      "path": "system.formats.nrbf/9.0.0",
+      "hashPath": "system.formats.nrbf.9.0.0.nupkg.sha512"
+    },
+    "System.Resources.Extensions/9.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tvhuT1D2OwPROdL1kRWtaTJliQo0WdyhvwDpd8RM997G7m3Hya5nhbYhNTS75x6Vu+ypSOgL5qxDCn8IROtCxw==",
+      "path": "system.resources.extensions/9.0.0",
+      "hashPath": "system.resources.extensions.9.0.0.nupkg.sha512"
+    },
+    "System.Security.Cryptography.ProtectedData/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wLBKzFnDCxP12VL9ANydSYhk59fC4cvOr9ypYQLPnAj48NQIhqnjdD2yhP8yEKyBJEjERWS9DisKL7rX5eU25Q==",
+      "path": "system.security.cryptography.protecteddata/4.5.0",
+      "hashPath": "system.security.cryptography.protecteddata.4.5.0.nupkg.sha512"
+    },
+    "System.Security.Permissions/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9gdyuARhUR7H+p5CjyUB/zPk7/Xut3wUSP8NJQB6iZr8L3XUXTMdoLeVAg9N4rqF8oIpE7MpdqHdDHQ7XgJe0g==",
+      "path": "system.security.permissions/4.5.0",
+      "hashPath": "system.security.permissions.4.5.0.nupkg.sha512"
+    },
+    "MSILEmulator/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "X86Emulator/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
